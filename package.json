@@ -2,12 +2,12 @@
   "name": "my-portpolio",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://hosplan.github.io/myPortfolio",
+  "homepage": "https://hosplan.github.io/myPortfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "predeploy" : "npm run build",
-    "deploy" : "touch out/.nojekyll && gh-pages -d out --dotfiles",
+    "predeploy": "npm run build",
+    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles",
     "start": "next start",
     "lint": "next lint"
   },
